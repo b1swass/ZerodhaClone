@@ -1,7 +1,12 @@
 import React from "react";
+import CreateTicket from "./CreateTicket";
 
 const SupportPage = () => {
-  return <div>SupportPage</div>;
+  return (
+    <div>
+      <CreateTicket />
+    </div>
+  );
 };
 
 export default SupportPage;
