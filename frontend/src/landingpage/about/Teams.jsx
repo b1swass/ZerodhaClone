@@ -7,12 +7,11 @@ const Teams = () => {
         {/* Left Section */}
         <div>
           <h1 className="text-4xl md:text-5xl font-semibold text-gray-900">
-            People
+            CEO
           </h1>
 
           <div className="mt-10">
             <img src="media/nithinKamath.jpg" className="w-72 rounded-xl" />
-            <h1>CEO</h1>
           </div>
 
           <div className="mt-8 w-20 h-1 bg-gray-300 rounded-full"></div>
