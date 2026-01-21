@@ -1,0 +1,163 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 5,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 4,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 3,
+			"com.tldraw.shape.geo": 11,
+			"com.tldraw.shape.note": 10,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 8,
+			"com.tldraw.shape.highlight": 2,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"lastActivityTimestamp": 0,
+			"meta": {},
+			"id": "pointer:pointer",
+			"typeName": "pointer"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:font": "draw"
+			},
+			"brush": {
+				"x": 476.390625,
+				"y": -561.1875,
+				"w": 6.80078125,
+				"h": 3.390625
+			},
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 973,
+				"h": 561
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 141.09375,
+			"y": 787.03125,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 103.6875,
+			"y": -550.015625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:MaW_OoIG5EpnWVYHGT4HT",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": "AAAAAAA4rjsdSAA4XEHmTAA4pEX0TwA4e0hoUQA4G0rCUgA4e0vLUwA4QExCVAA4rUyDVAA47UyuVAA4GU3JVAA4RE3fVAA4Wk3vVAA4cE36VAA4hk0FVQA4nE0LVQA4nE0QVQA4nE0UVQA4sE0ZVQA4sE0fVQA4xE0kVQA48E0pVQA4HE4vVQA4XU40VQA4yk46VQA4Nk8/VQA4zk9EVQA4PlBKVQA4oFBKVQA4DFFKVQA4hFFEVQA4+1E6VQA4aFIvVQA41FIkVQA4QVMeVQA4uVMUVQA4HVQJVQA4X1T+VAA4oFTzVAA47FTtVAA4Q1XoVAA4mlXjVAA4+1XdVAA4WFbYVAA4qVbNVAA48Fa9VAA4JlesVAA4V1ecVAA4fVeGVAA4nVdxVAA4uVdbVAA4zldLVAA45Fc6VAA49FcqVAA4AlgaVAA4CFgJVAA4DVjyUwA4EFjSUwA4E1icUwA4E1hPUwA4E1juUgA4DVh2UgA4BVjeUQA46lcbUQA4vlchUAA4iFc4TgA4UVcvTAA4G1fNSAA48FYsRAA4ylauswA4qVZDwwA4iVZaxgA4Y1ZdyAA4LFa4yQA461VAywA4hFWPzAA4B1WpzQA4c1SvzgA4rlOlzwA4hFIr0AA4f1F30AA4plCY0AA4kk6N0AA4jE2C0AA4nUxs0AA4XEtM0AA4AUor0AA40UgV0AA4l0fpzwA4j0WozwA4uENnzwA4UkAmzwA4hTfkzgA4SL6jzgA4OMNjzgA4TcUMzgA4AMfKzQA4WshzzQA4BskyzQA4tMnxzAA4N8qwzAA4usqEzAA4D8tZzAA4ZsstzAA4vcsCzAA46cvYywA4CsytywA4IMyBywA4NsxWywA4TMwsywA4YcwAywA4d8zUygA4d8yqygA4d8yFygA4d8xgygA4d8w7ygA4d8zmyQA4d8yPyQA4Ycw6yQA4TMy3yAA4Nsw0yAA4IMxkxwA4CsxfxgA46csFxQA4vctSwwA4ksuawAA4kssfvQA4"
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1,
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"parentId": "page:page",
+			"index": "a18xwfAV",
+			"typeName": "shape"
+		}
+	]
+}
